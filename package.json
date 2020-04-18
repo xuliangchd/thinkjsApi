@@ -1,0 +1,74 @@
+{
+  "name": "xuliangchd",
+  "description": "xuliangchd",
+  "version": "1.0.0",
+  "author": "xuliangchd",
+  "scripts": {
+    "start": "node development.js",
+    "test": "THINK_UNIT_TEST=1 nyc ava test/ && nyc report --reporter=html",
+    "lint": "eslint src/",
+    "lint-fix": "eslint --fix src/"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.7",
+    "alipay-node-sdk": "^1.1.8",
+    "baidu-aip-sdk": "^2.3.9",
+    "html-encoding-sniffer": "^1.0.2",
+    "htmlspecialchars": "^1.0.5",
+    "jpush-sdk": "^3.5.0",
+    "jsonwebtoken": "^8.4.0",
+    "kcors": "^2.2.1",
+    "md5": "^2.2.1",
+    "moment": "^2.22.1",
+    "qiniu": "^7.1.7",
+    "qrcode-cn": "0.0.5",
+    "querystring": "^0.2.0",
+    "superagent": "^4.1.0",
+    "tenpay": "^2.1.6",
+    "think-cache": "^1.0.0",
+    "think-cache-file": "^1.0.8",
+    "think-cache-redis": "^1.2.0",
+    "think-fetch": "^1.1.0",
+    "think-logger3": "^1.0.0",
+    "think-model": "^1.0.0",
+    "think-model-mysql": "^1.0.0",
+    "think-qs": "^1.0.1",
+    "think-session": "^1.0.0",
+    "think-session-file": "^1.0.5",
+    "think-session-jwt": "^1.0.8",
+    "think-view": "^1.0.0",
+    "think-view-nunjucks": "^1.0.1",
+    "think-websocket": "^1.0.6",
+    "think-websocket-socket.io": "^1.0.10",
+    "think-wechat": "^1.1.0",
+    "thinkjs": "^3.0.0",
+    "wechat-api": "^1.35.1",
+    "xiaomi-push": "^1.0.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "think-watcher": "^3.0.0",
+    "eslint": "^4.2.0",
+    "eslint-config-think": "^1.0.0",
+    "ava": "^0.18.0",
+    "nyc": "^7.0.0"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "readmeFilename": "README.md",
+  "thinkjs": {
+    "metadata": {
+      "name": "xuliangchd",
+      "description": "xuliangchd",
+      "author": "xuliangchd",
+      "babel": false
+    },
+    "projectName": "thinjss",
+    "template": "C:\\Program Files\\nodejs\\node_global\\node_modules\\think-cli\\default_template",
+    "clone": false,
+    "isMultiModule": false
+  }
+}
